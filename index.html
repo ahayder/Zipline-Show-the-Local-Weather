@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/css/bootstrap3/bootstrap-switch.min.css" />
+  <script src"https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js"></script>
+  <script src"https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js"></script>
+  <meta charset="utf-8">
+  <title>Local Weather App</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Local Weather App</h1></br></br>
+        <div id="change">
+          <div id="weather">
+          <div class="btn btn-success btn-lg active my-class" type="button">
+            <input type="checkbox" name="switch" checked data-on-color="success" data-off-color="sucess" data-on-text="℉" data-off-text="℃"></br></br>
+            <span class="badge">
+              <img id="image"/><span id="temp"></span>
+            </span></br></br></br>
+            <div class="btn btn-success btn-lg" id="region">
+            </div>
+            <div class="btn btn-success btn-lg" id="description">
+            </div>
+            <div class="btn btn-success btn-lg" id="wind">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
