@@ -1,0 +1,35 @@
+.jumbotron{
+  min-height: 1200px;
+  margin-bottom: 0;
+  background: url("https://static.pexels.com/photos/580/streets-landscape-mountains-nature.jpg");
+  background-size: cover;
+}
+
+.container{
+  text-align: center;
+}
+
+.btn{
+  padding: 30px 30px 30px 30px !important;
+  font-size: 24px;
+}
+
+.badge{
+  padding: 20px 20px 20px 20px;
+  font-size: 24px;
+  width: 210px !important;
+}
+
+.btn:hover {
+   background-position: 0px !important;
+   background-color: #5cb85c !important;
+}
+
+.my-class:hover {
+   background-position: 0px !important;
+   background-color: #449d44 !important;
+}
+
+#switch{
+  
+}
